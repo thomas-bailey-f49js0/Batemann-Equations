@@ -1,0 +1,241 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7779,        231]
+NotebookOptionsPosition[      5880,        189]
+NotebookOutlinePosition[      6274,        205]
+CellTagsIndexPosition[      6231,        202]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"years", " ", "=", " ", 
+   RowBox[{"24", " ", "3600", " ", "365.24"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Lambda]238", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"Log", "[", "2", "]"}], "/", 
+    RowBox[{"(", 
+     RowBox[{"4.46*^9", " ", "years"}], ")"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"N238", " ", "=", " ", 
+   RowBox[{"1", " ", 
+    SuperscriptBox["E", 
+     RowBox[{
+      RowBox[{"-", "t"}], " ", "\[Lambda]238"}]]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Lambda]235", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"Log", "[", "2", "]"}], "/", 
+    RowBox[{"(", 
+     RowBox[{"7.04*^8", " ", "years"}], ")"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"N235", " ", "=", " ", 
+   RowBox[{"1", " ", 
+    SuperscriptBox["E", 
+     RowBox[{
+      RowBox[{"-", "t"}], " ", "\[Lambda]235"}]]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"N238", "/", "N235"}], "==", 
+    RowBox[{"0.992742", "/", "0.007204"}]}], ",", "t"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.948369591918641*^9, 3.948369619816432*^9}, {
+  3.948369657678403*^9, 3.9483697225966997`*^9}, {3.948370207778747*^9, 
+  3.948370295193386*^9}},
+ CellLabel->
+  "In[104]:=",ExpressionUUID->"c1f368db-99fe-4b5e-bde3-2418fcc54137"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Solve", "ifun", 
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Solve\\\"}]\\), so some solutions may not be found; use \
+Reduce for complete solution information.\"", 2, 109, 3, 31778721573837099689,
+    "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9483702958331423`*^9},
+ CellLabel->
+  "During evaluation of \
+In[104]:=",ExpressionUUID->"9501a74b-96d2-4823-a97e-f7c9dd8837f1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"{", 
+    RowBox[{"t", "\[Rule]", "1.8746852214325574`*^17"}], "}"}], "}"}], "/", 
+  "years"}]], "Input",
+ CellChangeTimes->{{3.948370305482164*^9, 3.948370307646655*^9}},
+ CellLabel->
+  "In[110]:=",ExpressionUUID->"20d78f48-06af-4c33-a424-c6a365b96027"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"3.168895541034409`*^-8", " ", 
+    RowBox[{"(", 
+     RowBox[{"t", "\[Rule]", "1.8746852214325574`*^17"}], ")"}]}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.948370308153994*^9},
+ CellLabel->
+  "Out[110]=",ExpressionUUID->"4ac598a9-c9e7-4389-bf8b-ecc1b92b7ecb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.948369737134626*^9, 3.948369778408372*^9}, {
+   3.9483700518290367`*^9, 3.948370060171812*^9}, 
+   3.948370281366536*^9},ExpressionUUID->"8b7b1911-1333-41fe-be42-\
+f2dd16beaf6c"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Solve", "ifun", 
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"Solve\\\"}]\\), so some solutions may not be found; use \
+Reduce for complete solution information.\"", 2, 95, 2, 31778721573837099689, 
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.948369779703417*^9, 3.9483700657544413`*^9},
+ CellLabel->
+  "During evaluation of \
+In[95]:=",ExpressionUUID->"6b60c990-c701-4b43-93f7-442018bbaf8a"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"t", "\[Rule]", "5.279787094518301`*^15"}], "}"}], "}"}]], "Output",\
+
+ CellChangeTimes->{3.948369779710597*^9, 3.948370065766651*^9},
+ CellLabel->"Out[95]=",ExpressionUUID->"fc5925cc-1888-4ca4-9226-a689fda992a0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"5.279787094518301`*^15", "/", "24"}], "/", "365.24"}], "/", 
+  "3600"}]], "Input",
+ CellChangeTimes->{{3.948369788786563*^9, 3.948369801022654*^9}, 
+   3.948370077775496*^9},
+ CellLabel->"In[96]:=",ExpressionUUID->"667bd906-5d30-45a4-a276-4bf93201ac76"],
+
+Cell[BoxData["1.673109378143006`*^8"], "Output",
+ CellChangeTimes->{3.9483698031748343`*^9, 3.948370079720374*^9},
+ CellLabel->"Out[96]=",ExpressionUUID->"5e1fbd09-5e93-41a9-9504-0e73677e26e1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Log", "[", "2", "]"}]], "Input",
+ CellChangeTimes->{{3.948370184879233*^9, 3.9483701865078506`*^9}},
+ CellLabel->"In[97]:=",ExpressionUUID->"1f7a407a-9865-4296-a32c-834d5020cfba"],
+
+Cell[BoxData[
+ RowBox[{"Log", "[", "2", "]"}]], "Output",
+ CellChangeTimes->{3.948370187183187*^9},
+ CellLabel->"Out[97]=",ExpressionUUID->"0d3e1fac-5c4d-4d15-8577-61774f1f1094"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"Log", "[", "2", "]"}], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[98]:=",ExpressionUUID->"0daf6ecb-d435-410d-8f5e-6f003eb7cf6c"],
+
+Cell[BoxData["0.6931471805599453`"], "Output",
+ CellChangeTimes->{3.9483701892325783`*^9},
+ CellLabel->"Out[98]=",ExpressionUUID->"281c6a16-13e0-4992-9268-7202c484d29a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1.8746852214325574`*^17", "/", "years"}]], "Input",
+ CellChangeTimes->{{3.948370323629991*^9, 3.948370324372218*^9}},
+ CellLabel->
+  "In[111]:=",ExpressionUUID->"91a35a8b-2862-4806-afe5-0a799b64df33"],
+
+Cell[BoxData["5.940681639040734`*^9"], "Output",
+ CellChangeTimes->{3.9483703249345007`*^9},
+ CellLabel->
+  "Out[111]=",ExpressionUUID->"3da8fb6a-a4d1-4764-a09f-521d2244fa5c"]
+}, Open  ]]
+},
+WindowSize->{808, 816},
+WindowMargins->{{Automatic, 327}, {28, Automatic}},
+FrontEndVersion->"13.1 for Mac OS X ARM (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"2c034f1d-ca5e-4bc6-b4ba-83177f6afffd"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1356, 41, 202, "Input",ExpressionUUID->"c1f368db-99fe-4b5e-bde3-2418fcc54137"],
+Cell[1939, 65, 455, 11, 67, "Message",ExpressionUUID->"9501a74b-96d2-4823-a97e-f7c9dd8837f1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2431, 81, 305, 8, 46, InheritFromParent,ExpressionUUID->"20d78f48-06af-4c33-a424-c6a365b96027"],
+Cell[2739, 91, 325, 9, 55, "Output",ExpressionUUID->"4ac598a9-c9e7-4389-bf8b-ecc1b92b7ecb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3101, 105, 227, 4, 46, "Input",ExpressionUUID->"8b7b1911-1333-41fe-be42-f2dd16beaf6c"],
+Cell[3331, 111, 475, 11, 67, "Message",ExpressionUUID->"6b60c990-c701-4b43-93f7-442018bbaf8a"],
+Cell[3809, 124, 269, 6, 55, "Output",ExpressionUUID->"fc5925cc-1888-4ca4-9226-a689fda992a0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4115, 135, 300, 7, 46, "Input",ExpressionUUID->"667bd906-5d30-45a4-a276-4bf93201ac76"],
+Cell[4418, 144, 193, 2, 52, "Output",ExpressionUUID->"5e1fbd09-5e93-41a9-9504-0e73677e26e1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4648, 151, 203, 3, 46, "Input",ExpressionUUID->"1f7a407a-9865-4296-a32c-834d5020cfba"],
+Cell[4854, 156, 178, 3, 52, "Output",ExpressionUUID->"0d3e1fac-5c4d-4d15-8577-61774f1f1094"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5069, 164, 184, 4, 46, "Input",ExpressionUUID->"0daf6ecb-d435-410d-8f5e-6f003eb7cf6c"],
+Cell[5256, 170, 169, 2, 52, "Output",ExpressionUUID->"281c6a16-13e0-4992-9268-7202c484d29a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5462, 177, 224, 4, 46, "Input",ExpressionUUID->"91a35a8b-2862-4806-afe5-0a799b64df33"],
+Cell[5689, 183, 175, 3, 69, "Output",ExpressionUUID->"3da8fb6a-a4d1-4764-a09f-521d2244fa5c"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

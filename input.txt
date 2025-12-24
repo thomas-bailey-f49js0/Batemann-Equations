@@ -1,0 +1,6 @@
+# Input file for Abundances
+# isotope Symbol mass(kg)
+238 U 1
+234 U 1
+235 U 1
+236 U 1
